@@ -37,7 +37,7 @@ public class velocityPlayerController : MonoBehaviour
     public float loserTextY;
     public float loserTextZ;
     
-    //referred to: https://www.youtube.com/watch?v=7KiK0Aqtmzc
+    //for gravity while falling, i referred to: https://www.youtube.com/watch?v=7KiK0Aqtmzc
     public float fallMultiplier; //affects the gravity when the character falls after jumping
     public float lowJumpMultiplier; //affects the gravity when player does a low jump
     
@@ -92,7 +92,7 @@ public class velocityPlayerController : MonoBehaviour
             rb.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
         }
         
-        //doesn't seem to work
+        //doesn't seem to work...
         else if (rb.velocity.y > 0 && Input.GetKeyUp(jump))
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
