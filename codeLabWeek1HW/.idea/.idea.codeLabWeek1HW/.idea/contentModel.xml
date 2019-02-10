@@ -16,6 +16,7 @@
         <e p="Scripts" t="Include">
           <e p="badStarController.cs" t="Include" />
           <e p="goodStarController.cs" t="Include" />
+          <e p="jumpGravityController.cs" t="Include" />
           <e p="playerController.cs" t="Include" />
           <e p="spawner.cs" t="Include" />
           <e p="velocityPlayerController.cs" t="Include" />
