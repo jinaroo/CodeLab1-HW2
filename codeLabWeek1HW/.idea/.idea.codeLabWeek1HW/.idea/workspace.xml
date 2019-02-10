@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0947ca80-0784-4a73-8915-0f1ddd3d00cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +16,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+            <state relative-caret-position="-810">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding>
-                <marker date="1549829310116" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549829310116" expanded="true" signature="133:3746" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="639:742" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
-                <marker date="1549829310116" expanded="true" signature="1415:1463" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="1521:2430" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="1728:1788" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="1890:2132" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="2235:2415" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="2458:3744" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="2911:3076" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="3134:3652" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="3181:3524" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="3579:3642" ph="{...}" />
-                <marker date="1549829310116" expanded="true" signature="3687:3738" ph="{...}" />
+                <marker date="1549830517895" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549830517895" expanded="true" signature="133:3650" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="628:731" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
+                <marker date="1549830517895" expanded="true" signature="1404:1452" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="1510:2419" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="1717:1777" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="1879:2121" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="2224:2404" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="2447:3648" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="2900:3065" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="3123:3523" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="3170:3513" ph="{...}" />
+                <marker date="1549830517895" expanded="true" signature="3558:3642" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -227,12 +224,20 @@
       <workItem from="1549310682283" duration="100000" />
       <workItem from="1549310787518" duration="8000" />
       <workItem from="1549827310574" duration="52000" />
-      <workItem from="1549827409071" duration="2231000" />
+      <workItem from="1549827409071" duration="3202000" />
     </task>
+    <task id="LOCAL-00001" summary="edited velocityPlayerController script: moved physics into fixedupdate and added jumpTimeCounter">
+      <created>1549829860256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549829860256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19242000" />
+    <option name="totallyTimeSpent" value="20213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,6 +285,10 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edited velocityPlayerController script: moved physics into fixedupdate and added jumpTimeCounter" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited velocityPlayerController script: moved physics into fixedupdate and added jumpTimeCounter" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -356,23 +365,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+        <state relative-caret-position="-810">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
-            <marker date="1549829310116" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549829310116" expanded="true" signature="133:3746" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="639:742" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
-            <marker date="1549829310116" expanded="true" signature="1415:1463" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="1521:2430" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="1728:1788" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="1890:2132" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="2235:2415" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="2458:3744" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="2911:3076" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="3134:3652" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="3181:3524" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="3579:3642" ph="{...}" />
-            <marker date="1549829310116" expanded="true" signature="3687:3738" ph="{...}" />
+            <marker date="1549830517895" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549830517895" expanded="true" signature="133:3650" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="628:731" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
+            <marker date="1549830517895" expanded="true" signature="1404:1452" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="1510:2419" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="1717:1777" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="1879:2121" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="2224:2404" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="2447:3648" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="2900:3065" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="3123:3523" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="3170:3513" ph="{...}" />
+            <marker date="1549830517895" expanded="true" signature="3558:3642" ph="{...}" />
           </folding>
         </state>
       </provider>

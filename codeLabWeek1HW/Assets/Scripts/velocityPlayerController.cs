@@ -5,8 +5,8 @@ using UnityEngine;
 public class velocityPlayerController : MonoBehaviour
 {
     //speed and jump (change in inspector)
-    public float maxSpeed = 10;
-    public float jumpForce = 200;
+    public float maxSpeed;
+    public float jumpForce;
     
     //ground check to prevent player from jumping in the air
     private bool grounded = false;
@@ -17,11 +17,6 @@ public class velocityPlayerController : MonoBehaviour
     //controls
     public KeyCode jump;
     //left and right controls are controlled using input.getaxis (see line 29-32)
-    
-    //NEW JUMP STUFF
-    public float jumpTime; //how long jump force will be added to player
-    private float jumpTimeCounter; //counts down how much time is left in jump
-    private bool isJumping; //checks if player is jumping or not
     
     //ui stuff
     public int score = 0;
@@ -43,7 +38,7 @@ public class velocityPlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        jumpTimeCounter = jumpTime;
+        
     }
 
     // Update is called once per frame
@@ -51,11 +46,6 @@ public class velocityPlayerController : MonoBehaviour
     {   
         //checking if player is on ground
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
-        
-        if (grounded) //whenever we're on the ground
-        {
-            jumpTimeCounter = jumpTime;
-        }
         
         //checking score
         scoreText.text = "score: " + score;
@@ -87,29 +77,7 @@ public class velocityPlayerController : MonoBehaviour
         //setting up jump
         if (grounded && Input.GetKeyDown(jump)) //jump only when player is on ground and pressing jump
         {
-            isJumping = true;
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce)); //force is added on y axis
-        }
-        
-        if (isJumping && Input.GetKeyDown(jump))
-        {
-            if (jumpTimeCounter > 0)
-            {
-                //keep jumping
-                gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce)); //same as above    
-                //reduce jumpTimeCounter over time
-                jumpTimeCounter -= Time.deltaTime; //Time.deltaTime checks how much time has passed since the last frame
-            }
-            
-            else if (jumpTimeCounter < 0)
-            {
-                isJumping = false;
-            }
-        }
-
-        if (Input.GetKeyUp(jump))
-        {
-            isJumping = false;
         }
     }
 }
