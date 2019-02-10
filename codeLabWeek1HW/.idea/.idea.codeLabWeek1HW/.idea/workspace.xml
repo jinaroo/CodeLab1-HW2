@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0947ca80-0784-4a73-8915-0f1ddd3d00cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.codeLabWeek1HW/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,39 +13,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="87" column="93" selection-start-line="87" selection-start-column="93" selection-end-line="87" selection-end-column="93" />
+            <state relative-caret-position="1320">
+              <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
               <folding>
-                <marker date="1549832639495" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549832639495" expanded="true" signature="133:3393" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="661:758" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
-                <marker date="1549832639495" expanded="true" signature="1442:1496" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="1554:2333" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="1801:2043" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="2146:2326" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="2385:3391" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="2766:2865" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="2883:3009" ph="/* if playerController is jumping ... */" />
-                <marker date="1549832639495" expanded="true" signature="3040:3161" ph="{...}" />
-                <marker date="1549832639495" expanded="true" signature="3261:3385" ph="{...}" />
+                <marker date="1549832747397" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549832747397" expanded="true" signature="133:3425" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="661:758" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
+                <marker date="1549832747397" expanded="true" signature="1471:1525" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="1583:2362" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="1830:2072" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="2175:2355" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="2414:3423" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="2795:2894" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="2912:3038" ph="/* adding gravity force when player falls after jumping (referred to youtube tutorial) ... */" />
+                <marker date="1549832747397" expanded="true" signature="3069:3190" ph="{...}" />
+                <marker date="1549832747397" expanded="true" signature="3293:3417" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/jumpGravityController.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/cameraController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="345">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="45" />
               <folding>
-                <marker date="1549832285196" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549832285196" expanded="true" signature="130:375" ph="{...}" />
-                <marker date="1549832285196" expanded="true" signature="240:294" ph="{...}" />
-                <marker date="1549832285196" expanded="true" signature="352:373" ph="{...}" />
+                <marker date="1549833989805" expanded="false" signature="6:78" ph="..." />
+                <marker date="1549833989805" expanded="true" signature="125:1124" ph="{...}" />
+                <marker date="1549833989805" expanded="true" signature="435:456" ph="{...}" />
+                <marker date="1549833989805" expanded="true" signature="514:1122" ph="{...}" />
+                <marker date="1549833989805" expanded="true" signature="744:867" ph="{...}" />
+                <marker date="1549833989805" expanded="true" signature="880:1003" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="645">
               <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
               <folding>
                 <marker date="1548943703774" expanded="false" signature="6:78" ph="..." />
@@ -124,6 +126,7 @@
       <find>game</find>
       <find>score</find>
       <find>rigid</find>
+      <find>...</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,9 +136,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/goodStarController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/cameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/badStarController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/jumpGravityController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -150,31 +153,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/jumpGravityController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/cameraController.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
+    <option name="x" value="118" />
     <option name="y" value="23" />
-    <option name="width" value="1232" />
-    <option name="height" value="751" />
+    <option name="width" value="1124" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -241,7 +235,8 @@
       <workItem from="1549310682283" duration="100000" />
       <workItem from="1549310787518" duration="8000" />
       <workItem from="1549827310574" duration="52000" />
-      <workItem from="1549827409071" duration="4867000" />
+      <workItem from="1549827409071" duration="5509000" />
+      <workItem from="1549833438972" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="edited velocityPlayerController script: moved physics into fixedupdate and added jumpTimeCounter">
       <created>1549829860256</created>
@@ -264,11 +259,25 @@
       <option name="project" value="LOCAL" />
       <updated>1549831875510</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="deleted gravity script and moved gravity code into velocityPlayerController script">
+      <created>1549832696527</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549832696527</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added cameraController script">
+      <created>1549832883156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549832883156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21878000" />
+    <option name="totallyTimeSpent" value="23044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,10 +289,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="23" width="1069" height="751" extended-state="0" />
+    <frame x="118" y="23" width="1124" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.38243628" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18151261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -320,7 +329,9 @@
     <MESSAGE value="edited velocityPlayerController script: moved physics into fixedupdate and added jumpTimeCounter" />
     <MESSAGE value="edited velocityPlayerController script: removed jumpTimeCounter stuff" />
     <MESSAGE value="added new script (jumpGravityController) and edited velocityPlayerController (changed gameObject.GetComponent&lt;Rigidbody2D&gt;() to just rb to make code look neater)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new script (jumpGravityController) and edited velocityPlayerController (changed gameObject.GetComponent&lt;Rigidbody2D&gt;() to just rb to make code look neater)" />
+    <MESSAGE value="deleted gravity script and moved gravity code into velocityPlayerController script" />
+    <MESSAGE value="added cameraController script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cameraController script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,6 +349,59 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/fishController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/urchinController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/starController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/jumpGravityController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+          <folding>
+            <marker date="1549832747397" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549832747397" expanded="true" signature="133:3425" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="661:758" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
+            <marker date="1549832747397" expanded="true" signature="1471:1525" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="1583:2362" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="1830:2072" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="2175:2355" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="2414:3423" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="2795:2894" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="2912:3038" ph="/* adding gravity force when player falls after jumping (referred to youtube tutorial) ... */" />
+            <marker date="1549832747397" expanded="true" signature="3069:3190" ph="{...}" />
+            <marker date="1549832747397" expanded="true" signature="3293:3417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <marker date="1548943703774" expanded="false" signature="6:78" ph="..." />
+            <marker date="1548943703774" expanded="true" signature="125:1173" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="436:478" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="533:1171" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="639:667" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="697:725" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="755:783" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="814:842" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="950:1029" ph="{...}" />
+            <marker date="1548943703774" expanded="true" signature="1110:1168" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/goodStarController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1549221010319" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549221010319" expanded="true" signature="127:332" ph="{...}" />
+            <marker date="1549221010319" expanded="true" signature="170:330" ph="{...}" />
+            <marker date="1549221010319" expanded="true" signature="207:301" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/badStarController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -365,67 +429,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/goodStarController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/cameraController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="345">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="45" />
           <folding>
-            <marker date="1549221010319" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549221010319" expanded="true" signature="127:332" ph="{...}" />
-            <marker date="1549221010319" expanded="true" signature="170:330" ph="{...}" />
-            <marker date="1549221010319" expanded="true" signature="207:301" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/playerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <marker date="1548943703774" expanded="false" signature="6:78" ph="..." />
-            <marker date="1548943703774" expanded="true" signature="125:1173" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="436:478" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="533:1171" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="639:667" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="697:725" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="755:783" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="814:842" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="950:1029" ph="{...}" />
-            <marker date="1548943703774" expanded="true" signature="1110:1168" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/jumpGravityController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <marker date="1549832285196" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549832285196" expanded="true" signature="130:375" ph="{...}" />
-            <marker date="1549832285196" expanded="true" signature="240:294" ph="{...}" />
-            <marker date="1549832285196" expanded="true" signature="352:373" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/velocityPlayerController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="87" column="93" selection-start-line="87" selection-start-column="93" selection-end-line="87" selection-end-column="93" />
-          <folding>
-            <marker date="1549832639495" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549832639495" expanded="true" signature="133:3393" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="661:758" ph="/* left and right controls are controlled using input.getaxis (see line 29-32) ... */" />
-            <marker date="1549832639495" expanded="true" signature="1442:1496" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="1554:2333" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="1801:2043" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="2146:2326" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="2385:3391" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="2766:2865" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="2883:3009" ph="/* if playerController is jumping ... */" />
-            <marker date="1549832639495" expanded="true" signature="3040:3161" ph="{...}" />
-            <marker date="1549832639495" expanded="true" signature="3261:3385" ph="{...}" />
+            <marker date="1549833989805" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549833989805" expanded="true" signature="125:1124" ph="{...}" />
+            <marker date="1549833989805" expanded="true" signature="435:456" ph="{...}" />
+            <marker date="1549833989805" expanded="true" signature="514:1122" ph="{...}" />
+            <marker date="1549833989805" expanded="true" signature="744:867" ph="{...}" />
+            <marker date="1549833989805" expanded="true" signature="880:1003" ph="{...}" />
           </folding>
         </state>
       </provider>
