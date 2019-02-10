@@ -6,8 +6,8 @@ public class spawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		InvokeRepeating("SpawnGoodStar", 1, 3); //call spawn after 1 seconds and then every 3 seconds
-		InvokeRepeating("SpawnBadStar", 2, 3);
+		InvokeRepeating("SpawnGoodStar", 1, 5); //call spawn after 1 seconds and then every 3 seconds
+		InvokeRepeating("SpawnBadStar", 2, 5);
 	}
 
 	void SpawnGoodStar()
