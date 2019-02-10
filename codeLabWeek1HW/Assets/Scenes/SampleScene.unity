@@ -2862,6 +2862,10 @@ MonoBehaviour:
   loserTextZ: -0.1358225
   fallMultiplier: 2.5
   lowJumpMultiplier: 2
+  winnerOffsetX: 5.2
+  winnerOffsetY: 3
+  loserOffsetX: 5.2
+  loserOffsetY: 3
 --- !u!4 &1815488890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3549125485293897428, guid: b989967972da84618b8d6ba11d5321ad,

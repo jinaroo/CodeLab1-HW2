@@ -41,6 +41,13 @@ public class velocityPlayerController : MonoBehaviour
     public float fallMultiplier; //affects the gravity when the character falls after jumping
     public float lowJumpMultiplier; //affects the gravity when player does a low jump
     
+    //public Vector3 playerPosition;
+    //text offset
+    public float winnerOffsetX;
+    public float winnerOffsetY;
+    public float loserOffsetX;
+    public float loserOffsetY;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -50,6 +57,8 @@ public class velocityPlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        //playerPosition = new Vector3(rb.transform.position.x, rb.transform.position.y, transform.position.z);
+        
         //checking if player is on ground
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
         
@@ -57,7 +66,7 @@ public class velocityPlayerController : MonoBehaviour
         scoreText.text = "score: " + score;
         if (score == 5)
         {    
-            winnerText.transform.position = new Vector3(winnerTextX, winnerTextY, winnerTextZ); //moves text to correct position
+            winnerText.transform.position = new Vector3(rb.position.x - winnerOffsetX, rb.position.y + winnerOffsetY); //moves text to correct position
             Time.timeScale = 0; //stop time, pause game
             Debug.Log("winner");
         }
@@ -66,7 +75,7 @@ public class velocityPlayerController : MonoBehaviour
         livesText.text = "lives: " + lives;
         if (lives == 0)
         {
-            loserText.transform.position = new Vector3(loserTextX, loserTextY, loserTextZ);
+            loserText.transform.position = new Vector3(rb.position.x - loserOffsetX, rb.position.y + loserOffsetY, loserTextZ);
             Time.timeScale = 0;
             Debug.Log("loser");
 			
