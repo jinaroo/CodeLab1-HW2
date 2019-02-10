@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class velocityPlayerController : MonoBehaviour
 {
+    private Rigidbody2D rb;
+    
     //speed and jump (change in inspector)
     public float maxSpeed;
     public float jumpForce;
@@ -38,7 +40,7 @@ public class velocityPlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -64,20 +66,19 @@ public class velocityPlayerController : MonoBehaviour
             Time.timeScale = 0;
             Debug.Log("loser");
 			
-        }
-        
+        } 
     }
     
-    void FixedUpdate()
+    void FixedUpdate() //contains all physics 
     {
         //move controls
         float moveDirection = Input.GetAxis("Horizontal"); //checks to see if player is going left (a/left arrow) or right (d/right arrow)
-        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveDirection*maxSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
+        rb.velocity = new Vector2(moveDirection*maxSpeed, rb.velocity.y);
         
         //setting up jump
         if (grounded && Input.GetKeyDown(jump)) //jump only when player is on ground and pressing jump
         {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce)); //force is added on y axis
+            rb.AddForce(new Vector2(0, jumpForce)); //force is added on y axis
         }
     }
 }
